@@ -39,7 +39,7 @@ readFilePro(`${__dirname}/dog.txt`)
     console.log("Random dog image saved to file");
   })
   .catch((err) => {
-    console.log(err.message);
+    console.log("NO FILE FOUND BUD");
   });
 
 // fs.readFile(`${__dirname}/dog.txt`, (err, data) => {
